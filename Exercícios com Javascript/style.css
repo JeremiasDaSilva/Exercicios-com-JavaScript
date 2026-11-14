@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.laterais {
+  display: flex;
+  gap: 12px;
+  height: 100vh;
+}
+
+
+.faixa {
+  width: 35px;
+  height: 100%;
+}
+
+
+.faixa.escura {
+  background-color: #004c99;
+}
+
+
+.faixa.clara {
+  background-color: #0066cc;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1a202c;
+}
+
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.card h2 {
+  font-size: 1.1rem;
+  color: #0066cc;
+}
+
+
+.inputs-linha {
+  display: flex;
+  gap: 10px;
+}
+
+
+input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+
+button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 9px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #004c99;
+}
+
+
+.card p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1a202c;
+  min-height: 20px;
+}
